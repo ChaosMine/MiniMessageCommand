@@ -1,0 +1,20 @@
+name: MiniMessageCommand
+version: 1.0
+author: Kamillaova
+
+main: ru.chaosmine.minimessagecommand.MiniMessageCommandPlugin
+
+api-version: 1.18
+
+permissions:
+  minimessagecommand.admin:
+    default: op
+    description: Access to /mm command
+
+commands:
+  mm:
+    description: MiniMessage command
+    usage: |
+      /mm me <text>  # Send MiniMessage message to self
+      /mm bc <text>   # Broadcast MiniMessage message
+      /mm to <player> <text>  # Send MiniMessage message to <player>

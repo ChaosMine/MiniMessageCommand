@@ -1,0 +1,19 @@
+*
+!*/
+
+!.git*
+
+!/README*
+!/LICENSE*
+
+!/gradlew
+!/gradlew.bat
+!/gradle.properties
+
+!build.gradle.kts
+!settings.gradle.kts
+
+# Force ignore
+build/*
+.idea/*
+.gradle/*
