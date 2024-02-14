@@ -17,9 +17,7 @@ import java.util.List;
 import static java.util.Objects.requireNonNull;
 
 public final class MiniMessageCommandPlugin extends JavaPlugin implements Listener {
-	private static final MiniMessage miniMessage = MiniMessage.builder()
-		.strict(true)
-		.build();
+	private static final MiniMessage miniMessage = MiniMessage.builder().build();
 	private final ChaosCooldownsCommand command = new ChaosCooldownsCommand();
 
 	@Override
